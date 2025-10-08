@@ -1,5 +1,6 @@
 :root{
     --text-color: #363940;
+    --primary-color: #38AEF7;
 }
 
 *{
@@ -42,3 +43,22 @@ header nav a {
 }
 
 /*home*/
+
+#home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home #welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    max-width: 130px;
+    background-color: #E7F6FF;
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 20px;
+}
