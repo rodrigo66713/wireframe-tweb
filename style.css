@@ -1,6 +1,7 @@
 :root{
     --text-color: #363940;
     --primary-color: #38AEF7;
+    --primary-color-light: #68C5FF;
 }
 
 *{
@@ -50,10 +51,18 @@ header nav a {
     align-items: center;
 }
 
+#home #texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 70px;
+}
+
 #home #welcome{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 7px;
     padding: 7px;
     max-width: 130px;
     background-color: #E7F6FF;
@@ -61,4 +70,41 @@ header nav a {
     font-size: 14px;
     font-weight: 700;
     border-radius: 20px;
+}
+
+#home h2 {
+    font-size: 62px;
+    font-weight: 700;
+    margin: 12px;
+}
+
+#home picture img{
+    max-width: 50vw;
+    padding: 20px;
+}
+
+#home button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 12px;
+}
+
+
+#home #role {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--primary-color-light);
+    margin: 12px;
+    margin-top: 60px;
+}
+
+#home span {
+    padding: 6px;
 }
