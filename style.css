@@ -1,7 +1,8 @@
 :root{
-    --text-color: #363940;
+    --gray-color-1: #363940;
     --primary-color: #38AEF7;
     --primary-color-light: #68C5FF;
+    --text-color: #6C7890;
 }
 
 *{
@@ -9,6 +10,18 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
 }
 
 body{
@@ -26,21 +39,26 @@ header{
     justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
-    padding: 20px;
+    padding: 24px;
     border-bottom: 0.5px solid #E7E3F9;
 }
 
 header h1 {
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 900;
+    font-size: 24px;
+    color: var(--gray-color-1)
 }
 
-header nav a {
-    padding: 5px;
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    padding: 12px;
     font-weight: 700;
     font-size: 12px;
-    color: var(--text-color);
-    text-decoration: none; 
+    color: var(--gray-color-1); 
 }
 
 /*home*/
@@ -76,6 +94,7 @@ header nav a {
     font-size: 62px;
     font-weight: 700;
     margin: 12px;
+    color: var(--gray-color-1);
 }
 
 #home picture img{
@@ -108,3 +127,6 @@ header nav a {
 #home span {
     padding: 6px;
 }
+
+/*modules*/
+
