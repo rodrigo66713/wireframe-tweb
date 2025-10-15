@@ -24,6 +24,8 @@ a{
     text-decoration: none;
 }
 
+/*general*/
+
 body{
     background-color: #ffffff;
     color: var(--text-color);
@@ -130,3 +132,39 @@ header nav ul li a {
 
 /*modules*/
 
+#module-group h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--gray-color-1);
+    font-size: 36px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+#module-group > p {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+#modules {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#modules div{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 calc(25%);
+    padding: 20px;
+}
+
+#modules div li{
+    list-style-type: disc;
+    list-style-position: outside;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--gray-color-1);
+    padding: 5px;
+}
