@@ -53,6 +53,10 @@ body{
     margin-bottom: 50px;
 }
 
+section {
+    margin: 10px;
+    margin-bottom: 20px; 
+}
 
 /*Header*/
 
@@ -253,4 +257,33 @@ header nav ul li a {
     color: var(--gray-color-3);
 }
 
+/*preview group*/
 
+#preview-group h2{
+    padding: 20px 15%;
+}
+
+#preview-group #preview-btn-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 10px;
+}
+
+#preview-group button {
+   width: 20%;
+   padding: 15px;
+   border-radius: 5px;
+   font-size: 18px;
+   font-weight: 600;
+   border: 2px solid var(--primary-color);
+}
+
+#btn-access {
+    background-color: var(--primary-color);
+    color: var(--gray-color-3);
+}
+
+#btn-preview {
+    color: var(--primary-color);
+}
