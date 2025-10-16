@@ -386,3 +386,39 @@ header nav ul li a {
 .profile-legend{
     margin-top: auto;
 }
+
+/*quote*/
+
+#last-section .quote{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+    margin: 0 10%;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--gray-color-1);
+}
+
+
+/*footer*/
+
+footer {
+    background-color: var(--gray-color-1);
+    color: var(--text--color-light);
+}
+
+footer #contact-container {
+    display: flex;
+    align-items: center;
+}
+
+footer h3 {
+    font-weight: 900;
+    font-size: 24px; 
+    color: var(--gray-color-3);
+}
+
+footer a {
+    color: var(--text--color-light);
+}
