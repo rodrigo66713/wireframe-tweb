@@ -1,8 +1,10 @@
 :root{
     --gray-color-1: #363940;
+    --gray-color-3: #F6F7FA;
     --primary-color: #38AEF7;
     --primary-color-light: #68C5FF;
     --text-color: #6C7890;
+    --text--color-light: #B5BDCF;
 }
 
 *{
@@ -33,6 +35,24 @@ body{
     font-weight: 400;
     font-size: 17px;
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--gray-color-1);
+    font-size: 36px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 
 /*Header*/
 
@@ -132,21 +152,6 @@ header nav ul li a {
 
 /*modules*/
 
-#module-group h2 {
-    display: flex;
-    justify-content: center;
-    color: var(--gray-color-1);
-    font-size: 36px;
-    font-weight: 700;
-    padding: 8px;
-}
-
-#module-group > p {
-    display: flex;
-    justify-content: center;
-    padding: 8px;
-}
-
 #modules {
     display: flex;
     justify-content: center;
@@ -181,4 +186,71 @@ header nav ul li a {
     padding-left: 65px;
     
 }
+
+/*plans*/
+
+#plans-group {
+    background-color: var(--gray-color-3);
+}
+
+#plans-group > .subtitle {
+    margin-bottom: 70px;
+}
+
+#plans-group #plans{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.plan {
+    border: 2px solid var(--text--color-light);
+    border-radius: 5px;
+    width: 25%;
+    padding: 30px;
+}
+
+.plan h3 {
+    color: var(--gray-color-1);
+    padding-bottom: 2px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.plan p {
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+#free {
+    color: var(--text-color);
+}
+
+.plan ul li {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.plan button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: var(--gray-color-3);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.plan #btn-blue {
+    background-color: var(--primary-color);
+    color: var(--gray-color-3);
+}
+
 
