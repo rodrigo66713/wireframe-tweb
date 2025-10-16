@@ -42,6 +42,10 @@ section {
     margin: 5% 0 10% 0; 
 }
 
+img {
+    border-radius: 10px;
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -293,6 +297,7 @@ header nav ul li a {
 
 #btn-preview {
     color: var(--primary-color);
+    background-color: transparent;
 }
 
 /*path group*/
@@ -316,8 +321,68 @@ header nav ul li a {
     padding: 8px;
 }
 
-#path-group img{
-    border-radius: 10px;
+
+/*team group*/
+
+#profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin: 0 10% 0 10%;
 }
 
-/**/
+#profile-container img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+#ceo-profile {
+    background-image: url('./assets/images/emerson-santos.png');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    max-width: 550px;
+    max-height: 350px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#ceo-profile h3, #ceo-profile p {
+    color: #ffffff;
+}
+
+#ceo-legend {
+    margin-top: auto;
+    color: var(--gray-color-3);
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+
+.profile-name{
+    margin: 10px 0;
+}
+
+.profile-name h3 {
+    color: var(--gray-color-1);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.profile-name p {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.profile-legend{
+    margin-top: auto;
+}
