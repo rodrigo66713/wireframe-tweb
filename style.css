@@ -1,8 +1,10 @@
 :root{
     --gray-color-1: #363940;
     --gray-color-3: #F6F7FA;
+    
     --primary-color: #38AEF7;
     --primary-color-light: #68C5FF;
+    
     --text-color: #6C7890;
     --text--color-light: #B5BDCF;
 }
@@ -36,6 +38,10 @@ body{
     font-size: 17px;
 }
 
+section {
+    margin: 5% 0 10% 0; 
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -51,11 +57,13 @@ body{
     justify-content: center;
     text-align: center;
     margin-bottom: 50px;
+    padding: 8px;
 }
 
-section {
-    margin: 10px;
-    margin-bottom: 20px; 
+.standing-text {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--primary-color-light);
 }
 
 /*Header*/
@@ -125,7 +133,6 @@ header nav ul li a {
 
 #home picture img{
     max-width: 50vw;
-    padding: 20px;
 }
 
 #home button {
@@ -287,3 +294,30 @@ header nav ul li a {
 #btn-preview {
     color: var(--primary-color);
 }
+
+/*path group*/
+
+#path-group {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    margin: 5% 10% 0 10%;
+}
+
+#path-group .title {
+    justify-content: flex-start;
+}
+
+#path-group .subtitle {
+    text-align: left;
+}
+
+#path-group .standing-text{
+    padding: 8px;
+}
+
+#path-group img{
+    border-radius: 10px;
+}
+
+/**/
