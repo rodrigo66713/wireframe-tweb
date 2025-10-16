@@ -161,10 +161,24 @@ header nav ul li a {
 }
 
 #modules div li{
-    list-style-type: disc;
-    list-style-position: outside;
     font-weight: 700;
     font-size: 20px;
     color: var(--gray-color-1);
-    padding: 5px;
+    line-height: 0.6rem;
+    padding: 10px;
 }
+
+#modules div li::before{
+    content: "•";
+    font-size: 100px;
+    color: var(--primary-color-light);
+    margin-right: 10px;
+    vertical-align: text-top;
+}
+
+#modules div p{
+    padding: 5px;
+    padding-left: 65px;
+    
+}
+
